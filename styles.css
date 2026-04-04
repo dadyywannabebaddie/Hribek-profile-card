@@ -4,7 +4,13 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
-
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
 body {
   height: 100vh;
   background: linear-gradient(135deg, #021024, #034078, #1282a2);
